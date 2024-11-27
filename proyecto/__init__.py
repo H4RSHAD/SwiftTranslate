@@ -16,5 +16,7 @@ from .models.User import db       # importo el db para poder migrar a la base de
 migrate = Migrate(app, db)                  # realiza las migraciones
 
 from .routers import home
+from .routers import home_planes
 
 app.register_blueprint(home, url_prefix="/")
+app.register_blueprint(home_planes, url_prefix="/")
