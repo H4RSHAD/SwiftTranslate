@@ -21,8 +21,10 @@ from .routers.router_registro import home_registro
 from .routers.router_dashboard import home_dashboard
 
 
+from .routers import home_planes
 
 app.register_blueprint(home, url_prefix="/")
 app.register_blueprint(home_login, url_prefix="/")
 app.register_blueprint(home_registro, url_prefix="/")
 app.register_blueprint(home_dashboard, url_prefix="/")
+app.register_blueprint(home_planes, url_prefix="/")
