@@ -1,4 +1,4 @@
-"# SwiftTranslate" 
+# SwiftTranslate
 
 ## Introducción
 
