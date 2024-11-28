@@ -4,3 +4,4 @@ from .router_registro import home_registro
 from .router_dashboard import home_dashboard
 
 from .router_planes import home_planes
+from .router_suscripcion import home_suscripcion
